@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  
+  #root設定
+  root :to => 'homes#index'
+  get 'homes/index'
   #get 'books/index'
   #get 'books/show'
   #get 'books/new'
